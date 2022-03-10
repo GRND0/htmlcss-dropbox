@@ -159,5 +159,50 @@ nav {
     object-fit: contain ;
 }
 
+.cinquek {
+    width: 100% ;
+    height: 500px ;
+
+
+}
+
+.box-loghi-testimonial {
+    width: 25% ;
+    height: 100% ;
+
+}
+
+.claim-testimonial {
+    width: 50% ;
+    height: 100% ;
+
+}
+
+.loghi-contenitore{
+    width: 100% ;
+    height: 50% ;
+
+    background-color:#61082b ;
+}
+.loghi {
+    
+    width: 50% ;
+    height: 100% ;
+    vertical-align: middle ;
+    text-align: center ;
+   
+
+}
+
+.img-loghi {
+    width: 100% ;
+    object-fit: contain ;
+    object-position: 50% 50% ;
+    
+}
+
+
+
+
 
 

@@ -23,12 +23,13 @@ html {
 }
 
 .larghezza-centrale {
-    width: 80% ;
+    width: 60% ;
     margin: 0 auto ;
 }
 
 .bg-blu {
     background-color: #b4d0e7 ;
+    margin: 0 0 200px 0 ;
 }
 
 nav { 
@@ -92,16 +93,51 @@ nav {
 
 }
 
-#sezione1 {
+#banner {
     padding: 80px 0 0 0 ;
     height: 50vh ;
+    width: 80% ;
+    margin: 0 auto ;
 }
 
-#sezione1 :first-child {
+
+#banner :nth-child(2) {
     width: 40% ;
 }
 
-#sezione1 :nth-child(2) {
+#banner :nth-child(3) {
     width: 60% ;
+}
+
+.colonna {
+    height: 700px ;
+    width: 30% ;
+    border: black solid 1px ;
+    display: inline-block;
+    
+}
+
+.contenitore-colonne {
+    margin-bottom: 50px ;
+}
+
+.contenitore-colonne :nth-child(2) {
+    margin: 0 40px ;
+}
+
+.box-basso {
+    height: 200px ;
+    border: black solid 1px ;
+}
+
+.contenitore50 {
+    width: 50% ;
+    
+
+}
+
+#img-partner {
+   width: 100% ;
+    object-fit: contain ;
 }
 

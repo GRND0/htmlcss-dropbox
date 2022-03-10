@@ -141,3 +141,23 @@ nav {
     object-fit: contain ;
 }
 
+.box-orizzontale {
+    width: 100% ;
+    margin-bottom: 2em ;
+
+}
+
+
+
+.quadrato {
+    width: calc(100%/3 - 1em);
+
+}
+
+#img-quadrate {
+    width: 100% ;
+    object-fit: contain ;
+}
+
+
+

@@ -30,15 +30,16 @@ html {
 .bg-blu {
     background-color: #b4d0e7 ;
     margin: 0 0 200px 0 ;
+    padding: 3em 0 0 0 ;
 }
 
 nav { 
     width: 100% ;
-    height: 80px ;
+    height: 60px ;
     padding: 0 1em ;
-    background-color: cadetblue ;
+    background-color: white ;
     position: fixed ;
-    line-height: 80px ;
+    line-height: 60px ;
 }
 
 #logo-box {
@@ -87,22 +88,46 @@ nav {
 
 .link-blu {
     color: white ;
-    background-color: blue ;
+    background-color: #0162ff ;
     font-size: 0.8em ;
-    padding: 0.3em 0.8em ;
+    padding: 0.5em 1em ;
 
 }
 
 #banner {
-    padding: 80px 0 0 0 ;
+    padding: 60px 0 0 0 ;
     height: 50vh ;
-    width: 80% ;
+    width: 90% ;
     margin: 0 auto ;
 }
+
+#titolo-principale {
+    font-size: 4.5em ;
+    width: 90% ;
+    
+}
+
+#freccia {
+    font-size: 3em ;
+}
+
+.float-sx a {
+    text-decoration: none ;
+}
+
+.testo-capo {
+    display: block ;
+}
+
+#contenitore-testo-banner {
+    padding: 0 12em 4em 0 ;
+}
+
 
 
 #banner :nth-child(2) {
     width: 40% ;
+  
 }
 
 #banner :nth-child(3) {
@@ -110,8 +135,8 @@ nav {
 }
 
 .colonna {
-    height: 700px ;
-    width: 30% ;
+   
+    width: calc(100% / 3 - 50px) ;
     border: black solid 1px ;
     display: inline-block;
     
@@ -121,13 +146,87 @@ nav {
     margin-bottom: 50px ;
 }
 
-.contenitore-colonne :nth-child(2) {
-    margin: 0 40px ;
+.contenitore-colonne .colonna:nth-child(2) {
+    margin: 0 75px ;
+}
+
+.singolo {
+    width: 100% ;
+    text-align: center ;
+    border-bottom: solid grey 1px;
+    
+}
+
+.team {
+    width: 100% ;
+    text-align: center ;
+    border-bottom: solid grey 1px; 
+}
+
+.costo * {
+    margin: 1em 0 ;
+}
+
+.costo {
+    text-align: left ;
+    padding: 0 1em ;
+
+}
+
+.condizioni {
+    padding: 0 1em ;
+}
+
+.condizioni span {
+    display: inline-block ;
+    margin: 1em 0;
+
+}
+
+h5 {
+    color: gray;
+   
+}
+
+.salienti {
+    width: 100% ;
+    margin-bottom: 4em ;
+    padding: 0 2em ;
+}
+
+.salienti li {
+    margin: 1em 0;
+}
+
+.salienti h3 {
+    margin-bottom: 1em ;
+   
 }
 
 .box-basso {
-    height: 200px ;
+    position: relative ;
+    
     border: black solid 1px ;
+}
+
+.enterprise {
+    padding: 1em ;
+}
+
+.enterprise h3 {
+    margin: 0.5em 0 ;
+}
+
+.enterprise span {
+    margin: 1em 0 ;
+    display: inline-block ;
+
+}
+
+#ufficio-vendite {
+    position: absolute ;
+    right: 3em ;
+    top: 3em ;
 }
 
 .contenitore50 {

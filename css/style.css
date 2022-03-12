@@ -287,19 +287,73 @@ h5 {
     
     width: 50% ;
     height: 100% ;
-    vertical-align: middle ;
-    text-align: center ;
+    padding: 2em ;
+
    
 
 }
 
 .img-loghi {
     width: 100% ;
-    object-fit: contain ;
-    object-position: 50% 50% ;
+    height: 100% ;
+    
+    
+    
+    
     
 }
 
+.sfondo-azzurro {
+    height: 30vh ;
+    background-color: #b4d0e7 ;
+}
+
+#porta-drop {
+    color: #61082b ;
+    font-size: 3em ;
+}
+
+#metà {
+    height: 100% ;
+    width: 50% ;
+    padding: 2em ;
+    text-align: center ;
+}
+
+
+#dropdown {
+    height: 60vh ;
+}
+
+footer {
+    height: 60vh;
+    background-color: black ;
+    color: white ;
+    
+}
+
+#contenitore-footer {
+    height: 100% ;
+    width: 80% ;
+    padding: 2em 3em ;
+}
+
+#contenitore-footer ul {
+    list-style: none ;
+}
+
+#contenitore-footer h4 {
+    margin: 1em 0;
+
+}
+
+#contenitore-footer div {
+    width: calc(100%/5) ;
+}
+
+#contenitore-footer div:first-child {
+    border-bottom: solid white 1px ;
+}
 
 
 

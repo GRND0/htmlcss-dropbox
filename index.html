@@ -57,21 +57,20 @@
         </nav>
 
         <div class="bg-blu">
+            <h1 id="titolo-principale">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             <div class="clearfix" id="banner">
-                <h1 id="titolo-principale">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                
                 <div id="contenitore-testo-banner" class="float-sx">
-                    <p>
+                    <p class="testo-capo" >
                     Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                     </p>
                     <a class="link-blu testo-capo" href="">inizia la tua prova gratuita</a>
                     <span class="testo-capo">Annulla in qualsiasi momento</span>
-                    <span class="testo-capo" id="freccia">&#8595;</span>
+                    <span  id="freccia">&#8595;</span>
                 </div>
-
-            
-                <img class="float-sx" src="img/jumbo.png" alt="banner">
-
-                
+                <div class="float-sx">
+                    <img id="jumbo" src="img/jumbo.png" alt="banner">
+                </div>
             
 
             </div>
@@ -85,13 +84,15 @@
 
         <div class="larghezza-centrale" id="piani">
             <h2>Trova il piano Dropbox Business che fa per te</h2>
-            <input type="radio" name=" " id=" "> Fatturazione mensile
-            <input type="radio" name=" " id=" "> Fatturazione annuale
+            <div class="pulsanti-radio">
+            <input class="radio" type="radio" name=" " id=" "> Fatturazione mensile
+            <input class="radio" type="radio" name=" " id=" "> Fatturazione annuale
+            </div>
             <div class="contenitore-colonne clearfix">
                 <div class="colonna float-sx">
                     <div class="singolo">Singolo</div>
                     <div class="costo">
-                        <h2>Professional</h2>
+                        <h3>Professional</h3>
                         <h3>19,99</h3>
                         <h5>/mese</h5>
                     </div>
@@ -116,7 +117,7 @@
                 <div class="colonna float-sx">
                     <div class="singolo">Singolo</div>
                     <div class="costo">
-                        <h2>Professional</h2>
+                        <h3>Professional</h3>
                         <h3>19,99</h3>
                         <h5>/mese</h5>
                     </div>
@@ -141,7 +142,7 @@
                 <div class="colonna float-sx">
                     <div class="singolo">Singolo</div>
                     <div class="costo">
-                        <h2>Professional</h2>
+                        <h3>Professional</h3>
                         <h3>19,99</h3>
                         <h5>/mese</h5>
                     </div>
@@ -194,17 +195,17 @@
             <div class="box-orizzontale clearfix">
                 <div class="float-sx quadrato">
                     <img id="img-quadrate" src="img/business-feature-switching-tools.png" alt="">
-                    <h3>Passa da uno strumento all'altro</h3>
+                    <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                 </div>
                 <div class="float-sx quadrato">
                     <img id="img-quadrate" src="img/business-feature-switching-tools.png" alt="">
-                    <h3>Passa da uno strumento all'altro</h3>
+                    <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                 </div>
                 <div class="float-sx quadrato">
                     <img id="img-quadrate" src="img/business-feature-switching-tools.png" alt="">
-                    <h3>Passa da uno strumento all'altro</h3>
+                    <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                 </div>
             </div>
@@ -212,17 +213,17 @@
             <div class="box-orizzontale clearfix">
                 <div class="float-sx quadrato">
                     <img id="img-quadrate" src="img/business-feature-switching-tools.png" alt="">
-                    <h3>Passa da uno strumento all'altro</h3>
+                    <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                 </div>
                 <div class="float-sx quadrato">
                     <img id="img-quadrate" src="img/business-feature-switching-tools.png" alt="">
-                    <h3>Passa da uno strumento all'altro</h3>
+                    <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                 </div>
                 <div class="float-sx quadrato">
                     <img id="img-quadrate" src="img/business-feature-switching-tools.png" alt="">
-                    <h3>Passa da uno strumento all'altro</h3>
+                    <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                 </div>
             </div>
@@ -291,7 +292,28 @@
     </div>
 
     <div class="larghezza-centrale" id="dropdown">
+        <h2> Domande frequenti</h2>
 
+        <input type="checkbox" id="title1" />
+        <label for="title1">Qual'è la differenza tra Dropobox Business Standard e Dropbox Business Advanced?</label>
+
+    <div class="content">
+        <p>Contenuto</p>
+    </div>
+
+    <input type="checkbox" id="title2" />
+    <label for="title2">Qual'è la differenza tra Dropobox Business Standard e Dropbox Business Advanced?</label>
+
+    <div class="content">
+        <p>Contenuto</p>
+    </div>
+
+    <input type="checkbox" id="title3" />
+    <label for="title3">Qual'è la differenza tra Dropobox Business Standard e Dropbox Business Advanced?</label>
+
+    <div class="content">
+        <p>Contenuto</p>
+    </div>
     </div>
     </main>
 

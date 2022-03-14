@@ -279,13 +279,23 @@ h5 {
 
 .box-orizzontale {
     width: 100% ;
-    margin-bottom: 3em ;
+    margin-bottom: 4em ;
 
 }
 .box-orizzontale div:nth-of-type(2) {
     margin: 0 1.5em ;
 }
 
+#team5k {
+    font-size: 3em ;
+    margin-bottom: 1em ;
+}
+
+#team5k+a {
+    margin-bottom: 3em ;
+    display:inline-block ; 
+    
+}
 
 
 .quadrato {
@@ -296,7 +306,7 @@ h5 {
 
 .quadrato h3 {
     margin-bottom: 1em ;
-    font-size: 2em ;
+    font-size: 1.5em ;
 }
 
 #img-quadrate {
@@ -320,14 +330,51 @@ h5 {
 .claim-testimonial {
     width: 50% ;
     height: 100% ;
+    background-color: #f5f5f5 ;
 
 }
+
+#desicopia {
+    height: 20% ;
+    width: 30% ;
+    padding: 3em ;
+    
+}
+
+#desicopia:after {
+    content: "";  
+    display: block; 
+    
+    width: 50%; 
+    padding-top: 20px; 
+    border-bottom: 1px solid lightgrey; 
+}
+
+img[src*="copy"] {
+    object-fit: contain ;
+    width: 100% ;
+}
+
+#statement {
+    width: 90% ;
+    height: 80% ;
+    padding: 4em 4em 4em 3em ;
+    margin: 1em 0 ;
+    font-weight: 500 ;
+    overflow: scroll ;
+    overflow-x: hidden ;
+    overflow-y: auto ;
+    
+    
+}
+
+
+
+
 
 .loghi-contenitore{
     width: 100% ;
     height: 50% ;
-
-    backgroun d-color:#61082b ;
 }
 .loghi {
     
@@ -352,6 +399,7 @@ h5 {
 }
 #img3 {
     background-color: #0093ce ;
+    
 }
 #img4 {
     background-color: #ff1c1c ;
@@ -368,6 +416,13 @@ h5 {
 #img8 {
     background-color: #ffd830 ;
 }
+
+img[src*="florida"] {
+    object-fit: contain ;
+}
+
+
+
 
 
 
@@ -386,7 +441,7 @@ h5 {
     height: 100% ;
     width: 50% ;
     padding: 2em ;
-    text-align: center ;
+    text-align: left ;
 }
 
 
@@ -404,7 +459,7 @@ footer {
 #contenitore-footer {
     height: 100% ;
     width: 80% ;
-    padding: 2em 3em ;
+    padding: 4em 6em 1em 5em ;
 }
 
 #contenitore-footer ul {
@@ -412,7 +467,7 @@ footer {
 }
 
 #contenitore-footer h4 {
-    margin: 1em 0;
+    margin: 2em 0;
 
 }
 
@@ -420,8 +475,19 @@ footer {
     width: calc(100%/5) ;
 }
 
-#contenitore-footer div:first-child {
-    border-bottom: solid white 1px ;
+
+
+#contenitore-footer div:first-child:after {
+    content: "";  
+    display: block; 
+    
+    width: 40% ; 
+    padding-top: 5em ; 
+    border-bottom: 1px solid white; 
+}
+
+#contenitore-footer li {
+    margin: 1em 0 ;
 }
 
 #dropdown h2 {

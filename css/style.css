@@ -94,6 +94,15 @@ nav {
 
 }
 
+.link-bianco {
+    color: black ;
+    background-color: white ;
+    font-size: 0.8em ;
+    padding: 0.5em 1em ;
+    border: solid 1px black ;
+
+}
+
 #banner {
    
     height: 50vh ;
@@ -212,6 +221,7 @@ div#banner div:nth-of-type(2) {
 
 .condizioni {
     padding: 0 1em ;
+    
 }
 
 .condizioni span {
@@ -219,6 +229,12 @@ div#banner div:nth-of-type(2) {
     margin: 1em 0;
 
 }
+
+.condizioni .link-blu {
+    text-align: center ;
+    min-width: 100%  ;
+}
+
 
 h5 {
     color: gray;
@@ -241,13 +257,14 @@ h5 {
 }
 
 .box-basso {
-    position: relative ;
+ 
     border: black solid 1px ;
     margin-bottom: 9em ;
 }
 
 .enterprise {
     padding: 1em ;
+    width: 70% ;
 }
 
 .enterprise h3 {
@@ -261,15 +278,34 @@ h5 {
 }
 
 #ufficio-vendite {
-    position: absolute ;
-    right: 3em ;
-    top: 3em ;
+    width: 30% ;
+    margin-top: 2.5em ;
+    padding: 0 2em 0 0 ;
+
+
+}
+
+#ufficio-vendite span {
+    min-width: 100% ;
+    display:inline-block ;
+    text-align: center ;
 }
 
 .contenitore50 {
     width: 50% ;
+    margin-bottom: 5em ;
     
+}
 
+#partner .contenitore50:last-child {
+    padding: 3em ;
+}
+.contenitore50 h2 {
+    margin: 0 0 1em 0 ;
+}
+
+.contenitore50 p {
+    margin: 0 0 2em 0 ;
 }
 
 #img-partner {
@@ -286,8 +322,13 @@ h5 {
     margin: 0 1.5em ;
 }
 
+#operazioni h2 {
+    font-size: 2.5em ;
+    margin-bottom: 1em ;
+}
+
 #team5k {
-    font-size: 3em ;
+    font-size: 2.5em ;
     margin-bottom: 1em ;
 }
 
@@ -430,18 +471,30 @@ img[src*="florida"] {
 .sfondo-azzurro {
     height: 30vh ;
     background-color: #b4d0e7 ;
+    padding: 2.5em ;
 }
 
 #porta-drop {
     color: #61082b ;
-    font-size: 3em ;
+    font-size: 2.5em ;
 }
 
-#metà {
+.metà {
     height: 100% ;
     width: 50% ;
     padding: 2em ;
-    text-align: left ;
+   
+    
+}
+
+.metà .link-bianco {
+    border: none ;
+    text-align: right ;
+    
+}
+
+#gratuita {
+    padding: 3.5em 0 2em 6em ;
 }
 
 
@@ -514,7 +567,6 @@ label {
 }
 
 label:hover {
-    background:
 }
 
 .content {
